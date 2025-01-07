@@ -27,6 +27,18 @@ FileFacilite/
 ├── .gitignore                              # Arquivos a serem ignorados no controle de versão
 ├── README.md                               # Documentação do projeto
 ```
+## Como Funciona
+O programa oferece um menu inicial com 8 interações principais, permitindo:  
+1. Criar diretórios.  
+2. Criar arquivos.  
+3. Excluir diretórios ou arquivos.  
+4. Verificar atributos de arquivos/diretórios.  
+5. Ler e exibir todos os seus arquivos.  
+
+Os arquivos manipulados pelo sistema são organizados e armazenados em uma pasta específica, previamente configurada para o programa.  
+
+:bangbang: **Nota Importante:**  
+O **FileFacilete** foi projetado apenas para fins educacionais e pequenos projetos. Ele **não deve ser usado em ambientes profissionais ou empresariais**.  
 
 ## Como Usar
 
@@ -46,6 +58,7 @@ FileFacilite/
    javac -d bin src/main/java/br/com/filefacilite/core/FileFaciliteApp.java
    java -cp bin br.com.filefacilite.core.FileFaciliteApp
    ```
+   
 
 ## Como Contribuir
 
